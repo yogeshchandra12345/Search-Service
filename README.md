@@ -17,3 +17,23 @@ A basic search service for data stored in online storage services like Google Dr
 4. `conf.py` contains configurations related to ElasticSearch.
 5. `es_mapping.json` contains mapping of each field to Keyword, text according to the search requirement.
 6. `requirements.txt` contains project dependencies.
+
+##### Examples:
+* Content of first file yogesh.docx:
+```
+Name = Yogesh
+Account_no = 5555544444
+PAN = ABCDE1234F
+Contact = 9773990308
+Email = yogesh.chandra.eee13@itbhu.ac.in 
+file_info = bank statement file
+```
+* Content of second file dummy.docx:
+```
+Name = Test_User
+Account_no = 6666677777
+PAN = QWERT1234Y 
+Contact = 9421408696
+Email = test_user@gmail.com
+file_info = income tax file
+```
