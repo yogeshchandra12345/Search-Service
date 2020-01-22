@@ -1,5 +1,9 @@
 #### Search based service using Google Drive and ElasticSearch
 A basic search service for data stored in online storage services like Google Drive, DropBox or Gmail.
+
+![Alt text](https://raw.githubusercontent.com/yogeshchandra12345/Search-Engine/master/search%20service.png)
+
+
 ##### Steps to use this search service on google drive.
 * Use a Python API ( oauth2client) to connect to Google Drive.
 * Upload two docx file containing having raw text like ('PAN', 'Account No', 'Name', 'File_info', etc).
