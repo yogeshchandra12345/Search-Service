@@ -24,7 +24,7 @@ A basic search service for data stored in online storage services like Google Dr
 Name = Yogesh
 Account_no = 5555544444
 PAN = ABCDE1234F
-Contact = 9773990308
+Contact = 9773570308
 Email = yogesh.chandra.eee13@itbhu.ac.in 
 file_info = bank statement file
 ```
@@ -33,7 +33,25 @@ file_info = bank statement file
 Name = Test_User
 Account_no = 6666677777
 PAN = QWERT1234Y 
-Contact = 9421408696
+Contact = 9411408696
 Email = test_user@gmail.com
 file_info = income tax file
+```
+
+##### Following are the some REST API based Query
+1. Search using **PAN** :
+```
+curl -XGET "http://localhost:9200/test_1/_search?pretty" -H 'Content-Type: application/ json' -d' { "query": { "match":{ "PAN": "QWERT1234Y" } } }'
+```
+2. Search using **Contact** :
+```
+curl -XGET "http://localhost:9200/test_1/_search?pretty" -H 'Content-Type: application/ json' -d' { "query": { "match":{ "Contact": "9773570308" } } }'
+```
+3. Search for string **income tax** in file_info field.
+```
+curl -XGET "http://localhost:9200/test_1/_search?pretty" -H 'Content-Type: application/ json' -d' { "query": { "match":{ "file_info": "income tax" } } }'
+```
+4. Search for string **bank** in file_info field.
+```
+curl -XGET "http://localhost:9200/test_1/_search?pretty" -H 'Content-Type: application/ json' -d' { "query": { "match":{ "file_info": "bank" } } }'
 ```
