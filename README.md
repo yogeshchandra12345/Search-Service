@@ -9,3 +9,11 @@ A basic search service for data stored in online storage services like Google Dr
 * Search based on Exact keyword or string like ('income tax', 'pan', 'file_ingo') in ElasticSearch.
 
 
+##### Code File Structure:
+* Python version : `3.6.8`
+1. `client_secret.json/credential.json` ( Token,refresh_token and secret_id to access Drive API)
+2. `resources` named folder contains two docs file ( yogesh.docx and dummy.docx)
+3. `main.py` is entry point of our application.
+4. `conf.py` contains configurations related to ElasticSearch.
+5. `es_mapping.json` contains mapping of each field to Keyword, text according to the search requirement.
+6. `requirements.txt` contains project dependencies.
