@@ -1,0 +1,30 @@
+{
+    "mappings": {
+        "properties": {
+        "Name":{
+        "type": "keyword"
+        },
+        "Account_no":{
+        "type": "keyword"
+        },
+        "PAN":{
+        "type": "keyword"
+        },
+        "Contact":{
+        "type":"keyword"
+        },
+        "Email":{
+        "type": "keyword"
+        },
+        "file_id":{
+        "type": "keyword"
+        }, 
+        "file_name":{
+        "type": "text"
+        },
+        "file_info":{
+        "type": "text"
+        }
+      }
+    }
+}
