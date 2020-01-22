@@ -19,7 +19,7 @@ A basic search service for data stored in online storage services like Google Dr
 6. `requirements.txt` contains project dependencies.
 
 ##### Examples:
-* Content of first file yogesh.docx:
+* Content of first file `yogesh.docx`:
 ```
 Name = Yogesh
 Account_no = 5555544444
@@ -28,7 +28,7 @@ Contact = 9773990308
 Email = yogesh.chandra.eee13@itbhu.ac.in 
 file_info = bank statement file
 ```
-* Content of second file dummy.docx:
+* Content of second file `dummy.docx`:
 ```
 Name = Test_User
 Account_no = 6666677777
